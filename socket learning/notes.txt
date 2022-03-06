@@ -1,0 +1,11 @@
+With async io i could try and control the flow of commands like this
+
+main(): - main function where logic of operations is handled
+
+await f() - first part of the game
+await s() - second part of the game
+
+async f(): - create event loop and run the functions concurrently - display what is needed to each user
+    await client request 1 - suspend this function so that the other clients can now request
+
+client server - connecting everyone
